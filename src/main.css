@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(45deg, rgb(139, 62, 62) 0 50%, rgb(63, 63, 100) 50% 100%);
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+.container header {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container header h1 {
+    font-size: 3em;
+    color: rgb(144, 131, 201);
+}
+
+.container header .btn a {
+    font-size: 1.3em;
+    text-decoration: none;
+    color: inherit;
+}
+
+.container form {
+    width: 500px;
+    margin: 100px auto;
+}
+
+.container form .imgs {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container form .imgs img {
+    width: 150px;
+}
+.container form  .btn-search{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container form  .btn-search button{
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+}
+.results{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.table {
+  width:100%;
+  margin:50px auto;
+  text-align:center;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+table td{
+    font-size:20px;
+}
